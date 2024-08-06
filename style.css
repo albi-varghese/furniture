@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+
+}
+header{
+    background-color: chocolate;
+    color: rgb(237, 217, 217);
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.banner{
+    background-image: url(https://cityfurnish.com/blog/wp-content/uploads/2023/04/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg-min.jpg);
+    width: 100%;
+    height: 650px;
+    background-size:cover;
+}
+section h2{
+    font-size: 50px;
+    color: white;
+    background-color: rgb(230, 176, 110);
+}
+section{
+    padding-top: 10px;
+    background-color: #3a9b9e;
+}
+img{
+    width:300px;
+    padding-top: 15px;
+    border-radius: 10px;
+    height: 200px;
+}
+.row{
+    width:100%;
+    height: 370px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    background-color: rgb(22, 97, 100);
+    width:330px;
+    height: 340px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+section h4{
+    font-size: 25px;
+    color: white;
+}
+section h5{
+    font-size: 19px;
+    color: white;
+}
+section span{
+    font-size: 20px;
+}
+#log{
+    margin: 25px;
+    width: 90px;
+    border-radius: 8px;
+    font-size: 15px;
+    height: 50px;
+}
+button{
+    width: 90px;
+    border-radius: 8px;
+    font-size: 15px;
+    height: 40px;
+    background-color: rgb(241, 240, 237);
+    color: rgb(42, 15, 15);
+    margin-top: 10px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+footer{
+    background-color: rgb(64, 118, 172);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 149px;
+    padding-top: 30px;
+}
+footer h4{
+    font-size: 20px;
+}
+footer h2{
+    font-size: 27px;
+}
+section button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.col:hover{
+    box-shadow: 3px 3px rgb(241, 235, 226);
+}
